@@ -10,8 +10,7 @@ for data in (response.json()['items']) :
     if data['answer_count'] == 0:
         print(data['title'])
         print(data['link'])
-        print()
     else :
         print("skipped")
-        print()
+    print()
         
